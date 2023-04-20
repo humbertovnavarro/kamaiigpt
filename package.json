@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node main.ts",
-    "dev": "ts-node-dev main.ts"
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node-dev src/main.ts"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,7 @@
     "vosk": "^0.3.39"
   },
   "devDependencies": {
+    "@types/node": "^18.15.12",
     "eslint": "^8.38.0",
     "prettier": "^2.8.7",
     "prisma": "^4.12.0",
